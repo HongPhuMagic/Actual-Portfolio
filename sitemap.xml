@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/</loc>
+    <loc>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/btc/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -33,6 +33,13 @@
   <url>
     <loc>https://hongphumagic.github.io/Actual-Portfolio/techs/</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/titanic/</loc>
+    <lastmod>2020-08-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
