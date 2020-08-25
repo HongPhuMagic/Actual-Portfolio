@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Edna West</copyright>
-    <lastBuildDate>Fri, 03 May 2019 09:37:55 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hongphumagic.github.io/Actual-Portfolio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bitcoin</title>
+      <link>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/</guid>
+      <description>ML-Project-2-Bitcoin Conclusion I have yet to reach to a conclusion due to my limited knowledge of ARIMA. I plan on eventually finishing this project as soon as I have gain more knowledge. I however, finished using rNN as an alternative model to predict bitcoin prices!
+Project Goal The goal of this project is to predict bitcoin (btc) prices using ARIMA (Auto Regressive Integrated Moving Average), a form of linear model, and rNN.</description>
+    </item>
     
     <item>
       <title></title>
@@ -30,16 +40,6 @@
       <description>&lt;figure&gt;
     &lt;img src=&#34;https://hongphumagic.github.io/Actual-Portfolio/post/images/Capture.PNG&#34;/&gt; 
 &lt;/figure&gt;</description>
-    </item>
-    
-    <item>
-      <title>Sample project</title>
-      <link>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/</link>
-      <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
-      
-      <guid>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/</guid>
-      <description>This would be a description of your sample project. You can add any content you&amp;rsquo;d like.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
