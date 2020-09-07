@@ -34,9 +34,20 @@ Project Goal The goal of this project is to predict bitcoin (btc) prices using A
     </item>
     
     <item>
+      <title>Drug sales</title>
+      <link>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/drugs/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/drugs/</guid>
+      <description>ML-Project-2-Drug-sales Conclusion The following final models used on the test dataset, N02BA, and their RMSE and R2 respectively are:
+ Linear Regression (RMSE: 36.53, R2: 0.076) Polynomial Regression (RMSE: 38.13, R2: -0.007) Gradient boosting (RMSE: 45.73, R2: -0.448)  With Linear regression (54% accuracy), polynomial regression, and gradient boosting (99% accuracy) as the best three performing models.
+Project Goal The goal for this project was to build regression models that can be used to predict future drug sales of:</description>
+    </item>
+    
+    <item>
       <title>Titanic</title>
       <link>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/titanic/</link>
-      <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/titanic/</guid>
       <description></description>
