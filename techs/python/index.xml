@@ -29,8 +29,7 @@
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/btc/</guid>
-      <description>ML-Project-2-Bitcoin Conclusion I have yet to reach to a conclusion due to my limited knowledge of ARIMA. I plan on eventually finishing this project as soon as I have gain more knowledge. I however, finished using rNN as an alternative model to predict bitcoin prices!
-Project Goal The goal of this project is to predict bitcoin (btc) prices using ARIMA (Auto Regressive Integrated Moving Average), a form of linear model, and rNN.</description>
+      <description>ML-Project-3-Bitcoin Conclusion I completed my RNN model to predict bitcoin prices! However, the performance was poor which could be due to many reasons. So it&amp;rsquo;s clear that this model wasn&amp;rsquo;t able to forecast bitcoin&amp;rsquo;s price and this was expected. As the model tries to forecast further into the future, the errors that it may picked up while trying to forecasting will be magnified the further we try to forecast because the model will be forecasting the forecast.</description>
     </item>
     
     <item>
