@@ -18,8 +18,8 @@
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/exoplanets/</guid>
-      <description>ML-Project-4-Exoplanets Project Goal The goal of this project was to predict potential exoplanets that are earth-size and smaller within the habitable zone of their respective sun using a variety of classification models.
-Conclusion After extracting 2418 candidates, I used my best two models to classify the 2418 candidates.
+      <description>ML-Project-4-Exoplanets Project Goal The goal of this project was to predict potential exoplanets that are earth-sized and smaller within the habitable zone of their respective sun using a variety of classification models.
+Conclusion After extracting 2418 candidates, I used my best two models to classify them.
  SVC predicted there would be 994 potential earth-sized and smaller exoplanets within the habitable zone Random Forest predicted there would be 829 potential earth-sized and smaller exoplanets within the habitable zone  If I was part of NASA&amp;rsquo;s team that is involved in the Kepler&amp;rsquo;s mission, I would attempt to validate the candidates my models predicted.</description>
     </item>
     
