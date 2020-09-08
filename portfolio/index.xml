@@ -18,9 +18,9 @@
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/exoplanets/</guid>
-      <description>ML-Project-3-Exoplanets Conclusion I used my best two models to classify the candidates!
- SVC predicted there would be 994 potential earth-sized and smaller within the habitable zone! Random Forest prediced there would be 829 potential earthh-sized and smaller within the habitable zone!  Models and their final performance was;
- Logistic Regression (87%) KNN (86%) Decision Tree (84%) Random Forest (89%) SVM (90%)  Project Goal The goal of this project is to predict potential Exoplanets that are earth-size and smaller within the habitable zone of their respective sun using a variety of classification models.</description>
+      <description>ML-Project-4-Exoplanets Project Goal The goal of this project was to predict potential exoplanets that are earth-size and smaller within the habitable zone of their respective sun using a variety of classification models.
+Conclusion After extracting 2418 candidates, I used my best two models to classify the 2418 candidates.
+ SVC predicted there would be 994 potential earth-sized and smaller exoplanets within the habitable zone Random Forest predicted there would be 829 potential earth-sized and smaller exoplanets within the habitable zone  If I was part of NASA&amp;rsquo;s team that is involved in the Kepler&amp;rsquo;s mission, I would attempt to validate the candidates my models predicted.</description>
     </item>
     
     <item>
@@ -29,7 +29,8 @@
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/btc/</guid>
-      <description>ML-Project-3-Bitcoin Conclusion I completed my RNN model to predict bitcoin prices! However, the performance was poor which could be due to many reasons. So it&amp;rsquo;s clear that this model wasn&amp;rsquo;t able to forecast bitcoin&amp;rsquo;s price and this was expected. As the model tries to forecast further into the future, the errors that it may picked up while trying to forecasting will be magnified the further we try to forecast because the model will be forecasting the forecast.</description>
+      <description>ML-Project-3-Bitcoin Project Goal The goal of this project was to predict bitcoin (btc) prices using ARIMA (Auto Regressive Integrated Moving Average), a form of linear model, and RNN. One thing to note is that; bitcoin is known to be very manipulated so I did not expect my model to perform well.
+Conclusion I have completed my RNN model to predict bitcoin prices. However, the performance was poor which could be due to many reasons.</description>
     </item>
     
     <item>
@@ -38,9 +39,10 @@
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/drugs/</guid>
-      <description>ML-Project-2-Drug-sales Conclusion The following final models used on the test dataset, N02BA, and their RMSE and R2 respectively are:
- Linear Regression (RMSE: 36.53, R2: 0.076) Polynomial Regression (RMSE: 38.13, R2: -0.007) Gradient boosting (RMSE: 45.73, R2: -0.448)  With Linear regression (54% accuracy), polynomial regression, and gradient boosting (99% accuracy) as the best three performing models.
-Project Goal The goal for this project was to build regression models that can be used to predict future drug sales of:</description>
+      <description>ML-Project-2-Drug-Sales Project Goal The goal for this project was to predict future classes of drug sales for the following:
+  N02BA - Analgesics and Antipyretics, Salicylic Acid and derivatives
+  N05B - Psycholeptics drugs, Anxiolytic drugs
+  Conclusion I would not rely on the final models built to predict drug sales for the classes of drugs I was interested in. I used five different regression models and selected the best three performing models using the results from the cross validation function.</description>
     </item>
     
     <item>

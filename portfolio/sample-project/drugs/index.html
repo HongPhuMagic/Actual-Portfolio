@@ -30,7 +30,7 @@
 <meta itemprop="description" content="This is the description of our sample project">
 <meta itemprop="datePublished" content="2020-08-16T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-08-16T00:00:00+00:00" />
-<meta itemprop="wordCount" content="131">
+<meta itemprop="wordCount" content="155">
 
 
 
@@ -197,37 +197,36 @@
 
 <img title="Drug sales" alt="Drug sales" src="https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/drug.jpg" />
 
-<h2 id="ml-project-2-drug-sales">ML-Project-2-Drug-sales</h2>
-<h4 id="conclusion">Conclusion</h4>
-<p>The following final models used on the test dataset, N02BA, and their RMSE and R2 respectively are:</p>
-<ul>
-<li>Linear Regression (RMSE: 36.53, R2: 0.076)</li>
-<li>Polynomial Regression (RMSE: 38.13, R2: -0.007)</li>
-<li>Gradient boosting (RMSE: 45.73, R2: -0.448)</li>
-</ul>
-<p>With Linear regression (54% accuracy), polynomial regression, and gradient boosting (99% accuracy) as the best three performing models.</p>
+<h1 id="ml-project-2-drug-sales">ML-Project-2-Drug-Sales</h1>
 <h4 id="project-goal">Project Goal</h4>
-<p>The goal for this project was to build regression models that can be used to predict future drug sales of:</p>
+<p>The goal for this project was to predict future classes of drug sales for the following:</p>
 <ul>
 <li>
-<p>N02BA - Analgesics and antipyretics, Salicylic acid and derivatives</p>
+<p>N02BA - Analgesics and Antipyretics, Salicylic Acid and derivatives</p>
 </li>
 <li>
 <p>N05B - Psycholeptics drugs, Anxiolytic drugs</p>
 </li>
-<li>
-<p>Apply regression machine learning algorithms:</p>
-<ul>
-<li>Linear Regression</li>
-<li>Polynomial Regression</li>
-<li>SVR</li>
-<li>Gradient boosting</li>
-<li>Random Foresting Regression</li>
 </ul>
+<h4 id="conclusion">Conclusion</h4>
+<p>I would not rely on the final models built to predict drug sales for the classes of drugs I was interested in. I used five different regression models and selected the best three performing models using the results from the cross validation function. The following final models used on the test dataset, N02BA, and their RMSE and R2 respectively are:</p>
+<ul>
+<li>
+<p>Linear Regression (RMSE: 36.53, R2: 0.076)
+<img src="Pictures/lr.JPG" alt=""></p>
+</li>
+<li>
+<p>Polynomial Regression (RMSE: 38.13, R2: -0.007)
+<img src="Pictures/po.JPG" alt=""></p>
+</li>
+<li>
+<p>Gradient Boosting (RMSE: 45.73, R2: -0.448)
+<img src="Pictures/gb.JPG" alt=""></p>
 </li>
 </ul>
+<p>With linear regression (54% accuracy), polynomial regression, and gradient boosting (99% accuracy) as the best three performing models.</p>
 <h4 id="data-source">Data Source</h4>
-<p>This dataset was obtained from <a href="https://www.kaggle.com/milanzdravkovic/pharma-sales-data?select=salesdaily.csv">Kaggle!</a> Please check out the link if you want to understand what each feature represents in detail.</p>
+<p>This dataset was obtained from <a href="https://www.kaggle.com/milanzdravkovic/pharma-sales-data?select=salesdaily.csv">Kaggle!</a> Please visit the link if you would like to understand what each feature represents in detail.</p>
 
 
 
