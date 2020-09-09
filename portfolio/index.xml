@@ -42,7 +42,7 @@ Conclusion I have completed my RNN model to predict bitcoin prices. However, the
       <description>ML-Project-2-Drug-Sales Project Goal The goal for this project was to predict future classes of drug sales for the following:
   N02BA - Analgesics and Antipyretics, Salicylic Acid and derivatives
   N05B - Psycholeptics drugs, Anxiolytic drugs
-  Conclusion I would not rely on the final models built to predict drug sales for the classes of drugs I was interested in. I used five different regression models and selected the best three performing models using the results from the cross validation function.</description>
+  Conclusion There are less consumptions of N05B &amp;amp; N02BA classes of drugs over time. There I would not rely on the final models built to predict drug sales for the classes of drugs I was interested in.</description>
     </item>
     
     <item>
