@@ -30,7 +30,7 @@
 <meta itemprop="description" content="This is the description of our sample project">
 <meta itemprop="datePublished" content="2020-08-24T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-08-24T00:00:00+00:00" />
-<meta itemprop="wordCount" content="309">
+<meta itemprop="wordCount" content="291">
 
 
 
@@ -47,7 +47,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="https://hongphumagic.github.io/Actual-Portfolio/">
-        <img src='https://hongphumagic.github.io/Actual-Portfolio/images/pro.PNG' alt="Profile HOME" class="rounded-logo">
+        <img src='https://hongphumagic.github.io/Actual-Portfolio/images/pro.PNG' alt="Profile Drug sales" class="rounded-logo">
       </a>
     </div>
     <h2>Aaron Hong</h2>
@@ -199,14 +199,31 @@
 
 <h1 id="ml-project-3-bitcoin">ML-Project-3-Bitcoin</h1>
 <h4 id="project-goal">Project Goal</h4>
-<p>The goal of this project was to predict bitcoin (btc) prices using ARIMA (Auto Regressive Integrated Moving Average), a form of linear model, and RNN.
+<p>The goal of this project was to predict bitcoin (btc) prices using RNN.
 One thing to note is that; bitcoin is known to be very manipulated so I did not expect my model to perform well.</p>
 <h4 id="conclusion">Conclusion</h4>
-<p>I have completed my RNN model to predict bitcoin prices. However, the performance was poor which could be due to many reasons. So it was clear that this model was not able to forecast bitcoin&rsquo;s prices which I had expected. As the model tried to forecast further into the future, the errors that it may pick up while trying to forecasting will be magnified the further we try to forecast. This because the model will be forecasting the forecast.</p>
-<p>I have yet to finish this project due to my limited knowledge of ARIMA. I plan on finishing this project as soon as I gain more knowledge. When I obtain enough knowledge, I will also try to use RNN to predict not too far into the future and hopefully get a better performing model.</p>
-<p>Bitcoin is a very volatile and manipulated asset. Predicting bitcoin&rsquo;s price from past history&rsquo;s data will not be enough to accurately predict bitcoin prices.</p>
+<p>In this project, I&rsquo;ve built two different RNN model;</p>
+<ul>
+<li>
+<p>RNN <strong>without</strong> Time Series Generator</p>
+<ul>
+<li>MAE: 4391.88</li>
+<li>RMSE: 4843.59</li>
+</ul>
+</li>
+<li>
+<p>RNN <strong>with</strong> Time Series Generator</p>
+<ul>
+<li>MAE: 603.50</li>
+<li>RMSE: 694.61</li>
+</ul>
+</li>
+</ul>
+<p>The RNN model with the time series generator had better performance than the RNN model without time series generator. So I used the RNN model with the generator to forecast into the unknown.</p>
+<p>By using RNN model with time series generator, as the model tries to forecast further into the future, the errors that it may picked up while trying to forecast will be magnified the further we try to forecast because the model will be forecasting the forecasted. Fortunately the testset had only 10 timestamp but, if we do decide to forecast even further, we will notice the performance drop the further we forecast.</p>
+<p>Bitcoin is a very volatile and manipulated asset. Predicting bitcoin&rsquo;s price from past history&rsquo;s data might not be enough.</p>
 <h4 id="data-source">Data Source</h4>
-<p>I have created my own dataset by webscraping coinmarketcap using Selenium and <!-- raw HTML omitted -->. I then created the CSV file which contains all of the lists/arrrays I scraped. I chose Selenium over faster methods such as scrapy or beautiful soup due to its capabilities in htlm interaction. I plan on making a trading bot in the future.</p>
+<p>I have created my own dataset by webscraping coinmarketcap using Selenium and <!-- raw HTML omitted -->. I then created the CSV file which contains all of the lists/arrays I scraped. I chose Selenium over faster methods such as scrapy or beautiful soup due to its capabilities in htlm interaction. I plan on making a trading bot in the future.</p>
 <h4 id="data-description">Data Description</h4>
 <p>This dataset has 6 different columns, all object data types. I intend to convert them into different data types; 1 datetime and 4 float, with 2660 rows/entries. Each float data type column describes candle properties except for the &lsquo;Volume&rsquo; column.</p>
 

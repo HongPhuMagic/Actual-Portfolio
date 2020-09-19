@@ -29,8 +29,11 @@ Conclusion After extracting 2418 candidates, I used my best two models to classi
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/btc/</guid>
-      <description>ML-Project-3-Bitcoin Project Goal The goal of this project was to predict bitcoin (btc) prices using ARIMA (Auto Regressive Integrated Moving Average), a form of linear model, and RNN. One thing to note is that; bitcoin is known to be very manipulated so I did not expect my model to perform well.
-Conclusion I have completed my RNN model to predict bitcoin prices. However, the performance was poor which could be due to many reasons.</description>
+      <description>ML-Project-3-Bitcoin Project Goal The goal of this project was to predict bitcoin (btc) prices using RNN. One thing to note is that; bitcoin is known to be very manipulated so I did not expect my model to perform well.
+Conclusion In this project, I&amp;rsquo;ve built two different RNN model;
+  RNN without Time Series Generator
+ MAE: 4391.88 RMSE: 4843.59    RNN with Time Series Generator
+ MAE: 603.</description>
     </item>
     
     <item>
