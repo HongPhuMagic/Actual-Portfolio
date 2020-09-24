@@ -45,6 +45,13 @@
   </url>
   
   <url>
+    <loc>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/solar/</loc>
+    <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/drugs/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>

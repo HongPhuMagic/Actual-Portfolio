@@ -37,6 +37,16 @@ Conclusion In this project, I&amp;rsquo;ve built two different RNN model;
     </item>
     
     <item>
+      <title>Solar irradiance</title>
+      <link>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/solar/</link>
+      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/solar/</guid>
+      <description>ML-Project-5-Solar-Irradiance Project Goal The goal of this project was to predict solar irradiance based on a variety of features such as; temperature, pressure, humidity, time, and wind directions.
+Conclusion The features that are the most relevant to solar irradiance was temperature(celsius) and day of the year. The random forest regressor was determined to be the best model which produced a mean R2 of 0.868 in cross validation. When comparing test set against the predictions; R2 score, MAE, and RMSE was 0.</description>
+    </item>
+    
+    <item>
       <title>Drug sales</title>
       <link>https://hongphumagic.github.io/Actual-Portfolio/portfolio/sample-project/drugs/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
